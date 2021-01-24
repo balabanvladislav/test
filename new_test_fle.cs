@@ -7,7 +7,7 @@ namespace ConsoleApplication3
         {
             NumberManip num = new NumberManip();
             Console.WriteLine(num.FindMax(10,30));
-            Console.WriteLine(num.FindMax(anime,not anime));
+            Console.WriteLine(num.FindMax("anime","not anime"));
 
         }
 
